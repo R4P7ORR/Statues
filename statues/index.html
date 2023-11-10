@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="row">
+        <p id="countAndPrice">Statues: 0 -- Total Price: 0 HUF</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="stTitle">Title:</label><br>
+          <label for="stYear">Year:</label><br>
+          <label for="stPrice">Price:</label><br>
+          <label for="stHeight">Height:</label>
+        </div>
+        <div class="col">
+          <input type="text" id="stTitle" placeholder="Statue Title"><br>
+          <input type="number" id="stYear" placeholder="Year of Creation"><br>
+          <input type="number" id="stPrice" placeholder="Statue Price"><br>
+          <input type="number" id="stHeight" placeholder="Statue Height">
+        </div>
+      </div>
+      <div class="row">
+        <Button id="btnPublish">Publish Statue</Button>
+        <p id="errorMessage"></p>
+      </div>
+    </div>
+
+
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
